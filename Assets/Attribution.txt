@@ -1,0 +1,5 @@
+List of Attributions:
+
+close icon : <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Pixel perfect - Flaticon</a>
+
+human body model : https://lod.humanatlas.io/ref-organ/united-male/v1.8/

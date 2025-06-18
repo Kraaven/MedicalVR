@@ -27,21 +27,41 @@ public class OrganSelector : XRBaseInteractable
         _audioSource.clip = Resources.Load<AudioClip>("Explanations/" + clip);
     }
 
-
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
         base.OnSelectEntered(args);
-        ToggleSelection();
+        if (GameManager.instance.IsQuiz)
+        {
+            GameManager.instance._quizpanel.SubmitAnswer(_OrganInfo.OrganName);
+            return;
+        }
+        if(GameManager.instance._organSelector == null) ToggleSelection();
     }
+
 
     public void ToggleSelection()
     {
         Toggled = !Toggled;
+        
         if (Toggled)
         {
             _outline.enabled = true;
             _outline.OutlineColor = GameManager.instance._toggleColor;
+            _audioSource.Play();
+            
+            GameManager.instance.ShowInformation(_OrganInfo, this);
         }
+        else
+        {
+            GameManager.instance.HideInformation();
+        }
+    }
+
+    public void StopSelection()
+    {
+        Toggled = false;
+        _outline.enabled = false;
+        _audioSource.Stop();
     }
 
     protected override void OnHoverEntered(HoverEnterEventArgs args)

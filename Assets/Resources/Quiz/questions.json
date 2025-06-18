@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Which organ produces bile and removes toxins from your blood?",
+    "answer": "Liver"
+  },
+  {
+    "question": "Which organ stores bile before it’s used to digest fats?",
+    "answer": "Gallbladder"
+  },
+  {
+    "question": "Which part of the digestive system absorbs most of the nutrients from food?",
+    "answer": "Small Intestine"
+  },
+  {
+    "question": "Which part of the body absorbs water and turns waste into feces?",
+    "answer": "Large Intestine"
+  },
+  {
+    "question": "Which bony structure supports your weight and protects pelvic organs?",
+    "answer": "Pelvic Bone"
+  },
+  {
+    "question": "Which organs are responsible for bringing oxygen into your blood and removing carbon dioxide?",
+    "answer": "Lungs"
+  },
+  {
+    "question": "Which organ pumps oxygenated blood to the rest of your body?",
+    "answer": "Heart"
+  },
+  {
+    "question": "Which organs detect light and send visual information to your brain?",
+    "answer": "Eyes"
+  },
+  {
+    "question": "Which organ controls your thoughts, feelings, and automatic body functions?",
+    "answer": "Brain"
+  },
+  {
+    "question": "Which organs remove waste from your blood and help regulate water balance?",
+    "answer": "Kidneys"
+  },
+  {
+    "question": "Which part of your body protects your spinal cord and supports your upper body?",
+    "answer": "Spine"
+  },
+  {
+    "question": "Which blood vessels carry oxygen-rich blood away from the heart?",
+    "answer": "Arteries"
+  },
+  {
+    "question": "Which blood vessels return oxygen-poor blood back to the heart?",
+    "answer": "Veins"
+  },
+  {
+    "question": "Which organ is most directly responsible for making sure your body gets the oxygen it needs to survive?",
+    "answer": "Lungs"
+  },
+  {
+    "question": "Which organ is essential for circulating blood and keeping you alive?",
+    "answer": "Heart"
+  }
+]
